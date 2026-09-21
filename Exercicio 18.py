@@ -1,0 +1,10 @@
+valor1 = float(input("Primeiro valor: "))
+valor2 = float(input("Segundo valor: "))
+ 
+if valor1 > valor2:
+    print(f"Maior valor: {valor1:g}")
+elif valor2 > valor1:
+    print(f"Maior valor: {valor2:g}")
+else:
+    print("VALORES IGUAIS")
+ 
